@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box; /*if we add any padding or any border on to an element, it doesn't actually affect the width of it.*/
+}
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+  display: flex; /*the reason for this is because I want to center everything*/
+  flex-direction: column; /*I want it to go back vertical, but still be a flex box so we can set the flex direction to column*/
+  align-items: center; /*centered it horizontally*/
+  justify-content: center; /*centered if vertically, be in right the middle, but need set height for the box*/
+  height: 100vh; /*vh: viewport height*/
+  overflow: hidden; /* I don't want scroll bars to be shown by default */
+  margin: 0;
+}
